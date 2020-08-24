@@ -5,8 +5,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
 }
+
 
 li, a {
   font-family: 'Montserrat', sans-serif;
@@ -15,36 +15,28 @@ li, a {
   font-style: normal;
   line-height: 1.23;
   font-size: 26px;
+  list-style-type: none;
   color: #2d2d2d;
 }
 
-header {
+
+.caixa {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
+  width: 940px;
+  margin: 24px auto;
 }
 
+.menu {
+  display: flex;
+  margin-left: 217px;
+}
+
+.menu_options{
+  margin-right: 24px;
+}
 .logo {
   cursor: pointer;
   margin-right: auto;
-}
-
-.nav_list {
-  list-style: none;
-}
-
-.nav_list li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav_list li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav_list li a:hover {
-  color: #fd8d20;
 }
 
 .container {
@@ -102,25 +94,104 @@ h4 {
   color: #292929;
 }
 
+.palestrantes {
+  width: 1440px;
+  height: auto;
+  box-shadow: inset 0 1px 11px 0 rgba(255, 150, 0, 0.07);
+  background-color: rgba(253, 141, 32, 0.1);
+  margin-bottom: 120px;
+}
+
+.titulo_palestrante {
+  width: 868px;
+  height: 51px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #5624c3;
+  text-align: center;
+    padding-top: 10px;
+    margin-left: 230px;
+}
+
 .palestrante1 {
   width: 138px;
   height: 138px;
   border-radius: 15px;
 }
 
-.botao1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: bold;
+.area_palestrante {
+  width: 300px;
+  height: 125px;
+  border-radius: 15px;
+  background-color: #fd8d20;
+  margin-left: 50px;
+}
+
+.align_info {
+  display: flex;
+}
+.text_align {
+  display:block;
+}
+.nome_palestrante{
+  width: 148px;
+  height: 23px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.13;
   letter-spacing: normal;
+  color: #2d2d2d;
+}
+.prof_palestrante{
+  width: 258px;
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #fd8d20;
+}
+.text_palestrante{
+  width: 685px;
+  height: 68px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #2d2d2d;
+}
+
+.orangeboard {
+  width: 138px;
+  height: 138px;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 28px;
+}
+
+.botao1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  line-height: 1.13;
   color: #ffffff;
   background-color: #6346E6;
   padding:30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   transition: all 0.3s ease 0s;
   align-items: center;
 }
@@ -150,6 +221,7 @@ h4 {
 
 .setTheTimer {
   list-style: none;
+  display: flex;
 }
 
 .setTheTimer li {
@@ -159,8 +231,16 @@ h4 {
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   font-family: 'Montserrat', sans-serif;
+  border: 1px solid rgba(253, 141, 32, 0.1);
+    background: rgba(253, 141, 32, 0.2);
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 4px;
+    height: 145px;
+    width: 145px;
+    font-weight: bold;
 }
 
 .setTheTimer li span {
@@ -173,20 +253,156 @@ h4 {
   margin: 0 auto;
   padding: 0.5rem;
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .customform,
 .cadastrarLive {
-  padding: 30px;
-  margin: 30px 30px 30px 30px;
-  width: 100%;
-  height: auto;
-	background-color: #fd8d20;
-	border-radius: 20;
-  opacity: 1;
+  width: 800px;
+  height: 442px;
+  border-radius: 20px;
+  background-color: #fd8d20;
+  text-align: center;
+  margin-left: 170px;
+  margin-bottom: 100px;
+}
+
+input[type="text"] {
+  background-color: transparent; 
+  font-size: 20px;
+}
+input[type="email"] {
+  background-color: transparent; 
+  font-size: 20px;
+}
+
+.input_dados::-webkit-input-placeholder { /* WebKit browsers */
+  width: 144px;
+  height: 48.7px;
+  font-family: Montserrat;
+  font-size: 27.2px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #ffe8d2;
+}
+.input_dados {
+  width: 653px;
+  height: 81.6px;
+  border-radius: 17px;
+  box-shadow: 0 4.5px 4.5px 0 rgba(84, 37, 191, 0.16);
+  border: solid 1.1px #ffffff;
+  margin: 50px auto;
+}
+
+.text_inscricao {
+  width: 868px;
+  height: 51px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #5624c3;
+  text-align: end;
 }
 
 .rodape {
   padding: 50px;
   background-color: #f1f1f1;
+  width: 1442px;
+}
+
+
+/* Modal do Botão Autora */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #F4F0E4;
+}
+
+.modal-conteudo {
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.modal-header p {
+margin: 0 400px;
+font-size: 20px;
+}
+
+.modal-body p {
+font-size: 20px;
+}
+
+.modal-header {
+  background: var(--modal-color);
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-body {
+  padding: 10px 20px;
+  background: #fff;
+  display: flex;
+}
+
+.modal-body img {
+    width: 20%;
+    height: 20%;
+}
+
+.modal-body p {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.modal-footer {
+  background: var(--modal-color);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
