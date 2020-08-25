@@ -20,5 +20,3 @@ let countDown = new Date('Aug 26, 2020 20:00:00').getTime(),
       //}
 
     }, second)
-
-  
