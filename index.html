@@ -10,9 +10,9 @@
         <meta property="og:type" content="article">
         <meta property="og:title" content="Espaço Colaborativo para Mulheres Empreendedoras | Ciclo Collab">
         <meta property="og:site_name" content="ciclo colab">
-        <meta property="og:url" content="https://ciclo-collab.netlify.app">
-        <meta property="og:image" content="https://ciclo-collab.netlify.app/img/Ciclo%20Collab.svg">
-        <meta property="og:image" content="https://ciclo-collab.netlify.app/img/pana.png">
+        <meta property="og:url" content="http://ciclo-collab.com">
+        <meta property="og:image" content="http://ciclo-collab.com/img/Ciclo%20Collab.svg">
+        <meta property="og:image" content="http://ciclo-collab.com/img/pana.png">
         <meta itemprop="url" content="img/Ciclo Collab.svg">
         
         <!--Bootstrap CSS-->
@@ -21,28 +21,15 @@
         <!-- Estilo CSS -->
         <link rel="stylesheet" type="text/css" href="./main.css">
 
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-MB5NFTQ');</script>
-        <!-- End Google Tag Manager -->
-
         <!--Tags Localização - hreflang-->
-        <link rel="alternate" href="https://ciclo-collab.netlify.app" hreflang="pt-br" />
-        <link rel="alternate" href="https://ciclo-collab.netlify.app" hreflang="x-default" />
+        <link rel="alternate" href="http://ciclo-collab.com" hreflang="pt-br" />
+        <link rel="alternate" href="www.ciclo-colab.com" hreflang="x-default" />
         
         <!--Tags Canonical-->
-        <link rel=“canonical” href=”https://ciclo-collab.netlify.app”/>
+        <link rel=“canonical” href=”http://ciclo-collab.com”/>
 
     </head>
 	<body id="ccolab">
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB5NFTQ"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        
 
         <script type="text/javascript" src="./dist/bioep.js"></script>
         <script type="text/javascript">
@@ -168,7 +155,7 @@
 
             <div class="col-md-6">
                 <div class="customform">
-                    <form id="cadastrarLive" action="https://ciclo-collab.netlify.app/oba" method="POST" data-netlify="true" >
+                    <form id="cadastrarLive" method="POST" netlify >
                         <div class="input-block">
                             <label for="name"></label>
                              <input
@@ -194,6 +181,7 @@
                             required
                         />
                         </div>
+                        <input name="redirectTo" type="hidden" value="http://ciclo-collab.com/oba" />
                         <button class="mt-4 botao1" type="submit">Cadastrar</button>
                     </form>
                 </div>
