@@ -31,6 +31,7 @@
     </head>
 	<body id="ccolab">
 
+
         <script type="text/javascript" src="./dist/bioep.js"></script>
         <script type="text/javascript">
             bioEp.init({
@@ -150,12 +151,12 @@
         </section>
         </div>
         <!-- Formulario -->
-        <section id="inscreva"> 
+        <section id="inscreva" class="inscricao_container"> 
             <h4 class="mt-4 text_inscricao">Inscreva-se agora para não ficar de fora!</h2>
 
             <div class="col-md-6">
                 <div class="customform">
-                    <form id="cadastrarLive" method="POST" netlify >
+                    <form id="cadastrarLive" action="https://ciclo-collab.netlify.app/oba" method="POST" data-netlify="true" >
                         <div class="input-block">
                             <label for="name"></label>
                              <input
@@ -181,7 +182,6 @@
                             required
                         />
                         </div>
-                        <input name="redirectTo" type="hidden" value="http://ciclo-collab.com/oba" />
                         <button class="mt-4 botao1" type="submit">Cadastrar</button>
                     </form>
                 </div>
@@ -201,22 +201,7 @@
             
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script>
-            var eventposted=0;
 
-            $(cadastrarLive).ready(function(){
-            $('botao1').click(function() {
-            window.setInterval(foo, 100);
-            });
-            });
-
-            function foo(){
-            if(($(".form-submission-text").is(':visible')) && (eventposted==0)){
-            window.location = "<b>https://ciclo-collab.netlify.app/oba</b>";
-            eventposted=1;
-            }
-            }
-        </script>
         <script type="text/javascript" src="/dist/countdown.js"></script>
 
         <!--Bootstrap JQuery, Popper e JavaScript-->
