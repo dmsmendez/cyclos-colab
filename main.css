@@ -346,7 +346,7 @@ input[type="email"] {
   width: 100%;
 }
 
-@media(min-width: 320px) and (max-width:800px) {
+@media(min-width: 320px) and (max-width:767px) {
   * {
     max-width: 820px;
   }
@@ -359,17 +359,17 @@ h1, h2, h4, h5 {
 }
 
 h3 {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 .botao1 {
-  font-size: 28px;
-  margin-bottom: 5px;
+  font-size: 26px;
+  margin-bottom: 25px;
 }
 .menu {
   margin-left: 195px
 }
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
 }
 .titulo2 {
   font-size: 2rem;
@@ -383,22 +383,21 @@ li, a{
   font-size: 29px;
 }
 .palestrantes {
-  width: 86%;
   margin-left: 30px;
+  width: 634px;
 }
 .container2 {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 178px;
   size: 30%;
 }
 .setTheTimer li {
-  width: 6.1rem;
+  width: 7.1rem;
   height: auto;
   font-size: 1rem;
 }
 .align_info {
   display: block;
-  justify-content: center;
+  padding: 10px;
 }
 .titulo_palestrante {
   font-size: 31px;
@@ -415,25 +414,27 @@ li, a{
   font-size: 26px;
   margin-top: 15px;  
   margin-left: 25px;
+  text-align: center;
 }
 .prof_palestrante {
   font-size: 21px;
   margin-top: 5px;
   margin-left: 25px;
   align-content: center;
+  text-align: center;
 }
 .text_inscricao {
   font-size: 28px;
   width: 350px;
   text-align: center;
   margin-right: 75%;
-  margin-left: 5%;
+  margin-left: 25%;
   margin-bottom: 5%;
 }
 .text_palestrante {
-  font-size: 15px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: -20px;
+  margin-bottom: 130px;
   padding: 5%;
   width: auto;
 }
@@ -448,23 +449,25 @@ li, a{
 }
 .orangeboard {
   margin-top: 20px;
-  margin-left: 110px;
+  margin-left: 217px;
   size: 70%;
+  width: 190px;
+  height: auto;
 
 }
 .customform,
 .cadastrarLive {
-  width: 350px;
+  width: 635px;
   height: auto;
   margin-left: 20px;
 }
 
 .input_dados {
-  width: 200px;
+  width: 590px;
 }
 
 .rodape {
-  width: auto;
+  width: 824px;
 }
 }
 
@@ -488,14 +491,19 @@ li, a{
   width: 1225px;
   margin-left: 100px;
 }
+
+.titulo_palestrante2  {
+  margin-top: 32px;
+  margin-left: -310px;
+  font-size: 20px;
+}
 .area_palestrante {
   width: 244px;
 }
 .inscricao_container {
-  /* width: 1332px; */
   margin-left: 140px;
 }
 .rodape {
-  width: 1500px;
+  width: 1600px;
 }
 }
