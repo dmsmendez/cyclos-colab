@@ -300,6 +300,38 @@ h4 {
   margin-bottom: 100px;
 }
 
+.imgfinal {
+  margin-bottom: 30px;
+}
+
+.quemsomos {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 113.19%;
+}
+
+.quemsomos2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5px;
+  line-height: 113.19%;
+  text-align: justify;
+}
+
+.purplestar {
+  color:#5624C3;
+  font-weight: bold;
+}
+.nossascrencas {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 113.19%;
+}
 input[type="text"] {
   background-color: transparent; 
   font-size: 20px;
