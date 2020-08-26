@@ -53,6 +53,10 @@ h1 {
 }
 
 .btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-decoration: none;
   margin-top: 20px;
   border-radius: 50px;
   background-color: #61ce70;
