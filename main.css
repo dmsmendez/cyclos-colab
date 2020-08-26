@@ -316,11 +316,13 @@ h4 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 15.5px;
+  font-size: 15px;
   line-height: 113.19%;
   text-align: justify;
 }
-
+.teste2{
+  margin-bottom: 50px;
+}
 .purplestar {
   color:#5624C3;
   font-weight: bold;
@@ -331,6 +333,16 @@ h4 {
   font-weight: 600;
   font-size: 30px;
   line-height: 113.19%;
+}
+.carousel-indicators{
+  botton: 0px; 
+}
+.carousel-inner {
+  margin-bottom: 20px;
+}
+.carousel-indicators li {
+ background-color: #5624C3;
+ border: none;
 }
 input[type="text"] {
   background-color: transparent; 
