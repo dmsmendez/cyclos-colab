@@ -208,6 +208,9 @@ h4 {
 }
 
 .botao1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   line-height: 1.13;
