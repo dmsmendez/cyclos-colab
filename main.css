@@ -680,6 +680,9 @@ h3 {
   margin-left: -84px;
 }
 .botao1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-size: 11px;
   line-height: 0.13;
   padding: 18px;
