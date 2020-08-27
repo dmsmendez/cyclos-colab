@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
 
 li, a {
   font-family: 'Montserrat', sans-serif;
@@ -48,7 +52,6 @@ li, a {
 
 .lead {
   font-size: 1.2rem;
-  margin-bottom: 50px;
 }
 
 .img-fluid{
@@ -154,7 +157,7 @@ h4 {
   height: 125px;
   border-radius: 15px;
   background-color: #fd8d20;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .align_info {
@@ -209,9 +212,6 @@ h4 {
 }
 
 .botao1 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   line-height: 1.13;
@@ -300,50 +300,6 @@ h4 {
   margin-bottom: 100px;
 }
 
-.imgfinal {
-  margin-bottom: 30px;
-}
-
-.quemsomos {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 113.19%;
-}
-
-.quemsomos2 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 113.19%;
-  text-align: justify;
-}
-.teste2{
-  margin-bottom: 50px;
-}
-.purplestar {
-  color:#5624C3;
-  font-weight: bold;
-}
-.nossascrencas {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 113.19%;
-}
-.carousel-indicators{
-  botton: 0px; 
-}
-.carousel-inner {
-  margin-bottom: 20px;
-}
-.carousel-indicators li {
- background-color: #5624C3;
- border: none;
-}
 input[type="text"] {
   background-color: transparent; 
   font-size: 20px;
@@ -394,7 +350,7 @@ input[type="email"] {
   width: 100%;
 }
 
-@media(min-width: 320px) and (max-width:767px) {
+@media (min-width:320px) and (max-width:359px) {
   * {
     max-width: 820px;
   }
@@ -406,22 +362,37 @@ h1, h2, h4, h5 {
   font-size: 2.4rem;
 }
 
+.container {
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  margin-right: 0;
+}
+
 h3 {
-  font-size: 1.1rem;
+  font-size: 0.5rem;
+}
+
+.row {
+  margin-left: -84px;
 }
 .botao1 {
-  font-size: 26px;
-  margin-bottom: 25px;
+  font-size: 11px;
+  line-height: 0.13;
+  padding: 18px;
+}
+
+.setTheTimer li span {
+  font-size: 1.6rem;
 }
 .menu {
   margin-left: 195px
 }
 .lead {
-  font-size: 1.35rem;
-  margin-bottom: 60px;
+  font-size: 1rem;
 }
 .titulo2 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .menu_options {
   margin-right: 40px;
@@ -432,56 +403,211 @@ li, a{
   font-size: 29px;
 }
 .palestrantes {
-  margin-left: 30px;
-  width: 634px;
+  margin-left: 16px;
+  width: 288px;
 }
 .container2 {
-  margin-left: 178px;
-  size: 30%;
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 97px;
 }
 .setTheTimer li {
-  width: 7.1rem;
+  width: 4.1rem;
   height: auto;
-  font-size: 1rem;
+  font-size: 10px;
 }
 .align_info {
   display: block;
   padding: 10px;
 }
 .titulo_palestrante {
-  font-size: 31px;
+  font-size: 20px;
   width: auto;
   margin-left: 10px;
   margin-top: 5px;
   padding: 8%;
 }
 .titulo_palestrante2 {
-  font-size: 20px;
-  padding: 20%;
+  font-size: 13px;
+  padding: 17px;
+  margin-left: -332px;
+  font-weight: 600;
+  line-height: 12px;
 }
 .nome_palestrante {
-  font-size: 26px;
+  font-size: 17px;
   margin-top: 15px;  
   margin-left: 25px;
   text-align: center;
 }
 .prof_palestrante {
-  font-size: 21px;
+  font-size: 14px;
   margin-top: 5px;
   margin-left: 25px;
   align-content: center;
   text-align: center;
 }
 .text_inscricao {
-  font-size: 28px;
+  font-size: 13px;
   width: 350px;
   text-align: center;
-  margin-right: 75%;
-  margin-left: 25%;
+  margin-left: -1%;
+  margin-bottom: -1%;
+}
+.text_palestrante {
+  font-size: 11px;
+  margin-top: -15x;
+  margin-bottom: 130px;
+  padding: 5%;
+  width: auto;
+}
+.text_align {
+  width: 100%;
+}
+.area_palestrante {
+  width: 154px;
+  margin-top: -75px;
+  margin-bottom: 5px;
+  height: 50px;
+  margin-left: 74px;
+}
+.orangeboard {
+  margin-left: 85px;
+  width: 115px;
+  height: auto;
+
+}
+.customform,
+.cadastrarLive {
+  width: 302px;
+  height: auto;
+  margin-left: -5px;
+  padding-bottom: 15px;
+}
+.input_dados::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 15px;
+}
+.input_dados {
+  width: 278px;
+  height: 48px;
+  margin-top: 20px;
+}
+.rodape {
+  width: 824px;
+  padding: 16px;
+}
+}
+
+@media (min-width:360px) and (max-width:375px) {
+  * {
+    max-width: 820px;
+  }
+  .caixa {
+    width: 55%;
+    margin: 30px 0px 10px 100px;
+}
+h1, h2, h4, h5 {
+  font-size: 2.4rem;
+}
+
+.container {
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  margin-right: 0;
+}
+
+h3 {
+  font-size: 0.5rem;
+}
+
+.row {
+  margin-left: -84px;
+}
+.botao1 {
+  font-size: 11px;
+  line-height: 0.13;
+  padding: 18px;
+}
+
+.setTheTimer li span {
+  font-size: 1.6rem;
+}
+.menu {
+  margin-left: 195px
+}
+.lead {
+  font-size: 1rem;
+}
+.titulo2 {
+  font-size: 1rem;
+}
+.menu_options {
+  margin-right: 40px;
+  white-space: nowrap;
+  display: none;
+}
+li, a{
+  font-size: 29px;
+}
+.palestrantes {
+  width: 325px;
+  margin-left: 20px;
+}
+.container2 {
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+}
+.setTheTimer li {
+  width: 4.1rem;
+  height: auto;
+  font-size: 10px;
+}
+.align_info {
+  display: block;
+  padding: 10px;
+}
+.titulo_palestrante {
+  font-size: 20px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 8%;
+}
+.titulo_palestrante2 {
+  font-size: 13px;
+  padding: 17px;
+  margin-left: -332px;
+  font-weight: 600;
+  line-height: 12px;
+}
+.nome_palestrante {
+  font-size: 17px;
+  margin-top: 15px;  
+  margin-left: 25px;
+  text-align: center;
+}
+.prof_palestrante {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 25px;
+  align-content: center;
+  text-align: center;
+}
+.text_inscricao {
+  font-size: 20px;
+  width: 350px;
+  text-align: center;
+  margin-left: 2%;
   margin-bottom: 5%;
 }
 .text_palestrante {
-  font-size: 20px;
+  font-size: 11px;
   margin-top: -20px;
   margin-bottom: 130px;
   padding: 5%;
@@ -491,28 +617,187 @@ li, a{
   width: 100%;
 }
 .area_palestrante {
-  width: 235px;
-  margin: auto;
-  margin-top: 100px;
+  width: 154px;
+  margin-top: -75px;
   margin-bottom: 5px;
+  height: 50px;
+  margin-left: 74px;
 }
 .orangeboard {
-  margin-top: 20px;
-  margin-left: 217px;
-  size: 70%;
-  width: 190px;
+  margin-left: 102px;
+  width: 115px;
   height: auto;
 
 }
 .customform,
 .cadastrarLive {
-  width: 635px;
+  width: 325px;
   height: auto;
-  margin-left: 20px;
+  margin-left: 4px;
+  padding-bottom: 15px;
+}
+
+.input_dados::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 15px;
 }
 
 .input_dados {
-  width: 590px;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.rodape {
+  width: 824px;
+  height: 223px;
+  padding: 22px;
+}
+}
+@media(min-width: 376px) and (max-width:767px) {
+  * {
+    max-width: 820px;
+  }
+  .caixa {
+    width: 55%;
+    margin: 30px 0px 10px 100px;
+}
+h1, h2, h4, h5 {
+  font-size: 2.4rem;
+}
+
+.container {
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  margin-right: 0;
+}
+
+h3 {
+  font-size: 0.5rem;
+}
+
+.row {
+  margin-left: -84px;
+}
+.botao1 {
+  font-size: 11px;
+  line-height: 0.13;
+  padding: 18px;
+}
+
+.setTheTimer li span {
+  font-size: 1.6rem;
+}
+.menu {
+  margin-left: 195px
+}
+.lead {
+  font-size: 1rem;
+}
+.titulo2 {
+  font-size: 1rem;
+}
+.menu_options {
+  margin-right: 40px;
+  white-space: nowrap;
+  display: none;
+}
+li, a{
+  font-size: 29px;
+}
+.palestrantes {
+  width: 325px;
+  margin-left: 46px;
+}
+.container2 {
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 156px;
+}
+.setTheTimer li {
+  width: 4.1rem;
+  height: auto;
+  font-size: 10px;
+}
+.align_info {
+  display: block;
+  padding: 10px;
+}
+.titulo_palestrante {
+  font-size: 20px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 8%;
+}
+.titulo_palestrante2 {
+  font-size: 13px;
+  padding: 17px;
+  margin-left: -332px;
+  font-weight: 600;
+  line-height: 12px;
+}
+.nome_palestrante {
+  font-size: 17px;
+  margin-top: 15px;  
+  margin-left: 25px;
+  text-align: center;
+}
+.prof_palestrante {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 25px;
+  align-content: center;
+  text-align: center;
+}
+.text_inscricao {
+  font-size: 20px;
+  width: 350px;
+  text-align: center;
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+.text_palestrante {
+  font-size: 11px;
+  margin-top: -20px;
+  margin-bottom: 130px;
+  padding: 5%;
+  width: auto;
+}
+.text_align {
+  width: 100%;
+}
+.area_palestrante {
+  width: 154px;
+  margin-top: -75px;
+  margin-bottom: 5px;
+  height: 50px;
+  margin-left: 74px;
+}
+.orangeboard {
+  margin-left: 102px;
+  width: 115px;
+  height: auto;
+
+}
+.customform,
+.cadastrarLive {
+  width: 325px;
+  height: auto;
+  margin-left: 38px;
+  padding-bottom: 15px;
+}
+
+.input_dados::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 15px;
+}
+
+.input_dados {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
 }
 
 .rodape {
@@ -520,37 +805,115 @@ li, a{
 }
 }
 
+
 @media(min-width:768px) and (max-width:1024px) {
+
+  .caixa {
+    margin: 24px 0px 10px 50px;
+  }
   .img-fluid {
     margin-left: 156px;
     max-width: none;
     margin-top: 150px;
 }
+li, a {
+  font-size: 15px;
+}
+h3 {
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 23px;
+}
 .menu {
-  margin-left: 340px;
+  margin-left: 184px;
 }
 .menu_options {
   margin-right: 39px;
   white-space: nowrap;
 }
+
+.img-fluid {
+  margin-left: 88px;
+  margin-top: 29px;
+  max-width: 300px;
+}
+
+.lead {
+  font-size: 1.1rem;
+}
+
+.botao1 {
+  font-size: 13px;
+  line-height: 0.13;
+  padding: 23px;
+}
 .container2 {
-  margin-left: 490px;
+  margin-left: 225px;
+  margin-bottom: 60px;
+}
+
+.setTheTimer li {
+  height: 73px;
+  width: 92px;
+}
+.setTheTimer li span {
+  font-size: 2rem;
+  padding: 2px;
 }
 .palestrantes {
-  width: 1225px;
-  margin-left: 100px;
+  width: 673px;
+  margin-left: 60px;
+}
+
+.titulo_palestrante {
+  margin-left: -50px;
+}
+.nome_palestrante {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.prof_palestrante {
+  font-size: 15px;
 }
 
 .titulo_palestrante2  {
-  margin-top: 32px;
-  margin-left: -310px;
-  font-size: 20px;
+  margin-top: 12px;
+  margin-left: -358px;
+  font-size: 11px;
 }
 .area_palestrante {
-  width: 244px;
+  width: 160px;
+  height: 54px;
+  margin-left: 35px;
+  margin-top: 55px;
+  margin-right: 14px;
+}
+.text_palestrante {
+  font-size: 10px;
+  width: auto;
+  margin-bottom: 34px;
 }
 .inscricao_container {
   margin-left: 140px;
+}
+.customform, .cadastrarLive {
+  width: 526px;
+  height: 284px;
+  margin-left: -16px;
+}
+
+.input_dados {
+  width: 474px;
+  height: 60.6px;
+  margin-top: 22px;
+}
+
+.text_inscricao {
+  text-align: initial;
+  font-size: 20px;
+  margin-left: 45px;
 }
 .rodape {
   width: 1600px;
